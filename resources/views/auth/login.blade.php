@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html :class="{ 'theme-dark': dark }" x-data="data()"
+<html
 lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
@@ -19,9 +19,9 @@ lang="{{ str_replace('_', '-', app()->getLocale()) }}">
             <div class="flex flex-col overflow-y-auto md:flex-row">
                 <div class="hidden md:block md:h-auto md:w-1/2">
                     <img aria-hidden="true" class="object-cover w-full h-full dark:hidden"
-                        src={{ asset('img/login-office.jpeg') }} alt="Office" />
+                        src={{ asset('img/office.jpeg') }} alt="Office" />
                     <img aria-hidden="true" class="hidden object-cover w-full h-full dark:block"
-                        src={{ asset('img/login-office-dark.jpeg') }} alt="Office" />
+                        src={{ asset('img/office-dark.jpeg') }} alt="Office" />
                 </div>
                 <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
                     <div class="w-full">
