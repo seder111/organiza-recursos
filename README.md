@@ -3,11 +3,11 @@ Aplicación Web desarrollada con Laravel, con el objetivo de reunir y organizar 
 
 Para la interfaz se ha utilizado [Windmill Dashboard](https://windmillui.com/) de [Estevan Maito](https://twitter.com/estevanmaito).
 
-Hoja de ruta:
-[] Sistema de autenticación breeze.
-[] Login Windmillui.
-[] Logout Windmillui.
-[] Home Landing (No autenticados).
-[] Más...
+**Hoja de ruta:**
+- [x] Agregar sistema de autenticación breeze (Laravel).
+- [x] UX Login Windmillui.
+- [ ] UX Register Windmillui.
+- [ ] Home Landing (No autenticados).
+- [ ] Más...
 
 _By Sergio González._
