@@ -4,8 +4,12 @@
     <nav
         class="relative max-w-[85rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2 px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between gap-x-1">
-            <a class="flex-none mr-3 text-xl font-semibold text-black focus:outline-none focus:opacity-80 dark:text-white"
-                href="{{ route('welcome')}}" aria-label="Brand">Recursos</a>
+            <a class="flex gap-x-2 mr-3 text-xl font-semibold text-black focus:outline-none focus:opacity-80 dark:text-white"
+                href="{{ route('welcome')}}" aria-label="Brand">
+                <img class="size-7"
+                src="{{ asset('img/logo_recursos.svg')}}" alt="">
+                Recursos
+            </a>
 
             <!-- Collapse Button -->
             <button type="button"
