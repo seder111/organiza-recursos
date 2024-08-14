@@ -40,12 +40,10 @@
                     <div class="grow">
                         <div class="flex flex-col md:flex-row  md:items-center gap-0.5 md:gap-1">
                             <a
-                                class="flex items-center p-2 text-sm text-gray-800 bg-gray-100 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
-                                href="{{ route('welcome') . '/#features' }}"
-                                aria-current="page">
-                                Características
+                                class="flex items-center p-2 text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+                                href="{{ route('welcome') . '/#features' }}">
+                                Funcionalidades
                             </a>
-
 {{--
                             <!-- Dropdown -->
                             <div
@@ -132,13 +130,13 @@
 --}}
 
                             <a
-                                class="flex items-center p-2 text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+                                class="flex items-center p-2 text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
                                 href="#">
                                 Preguntas frecuentes
                             </a>
 
                             <a
-                                class="flex items-center p-2 text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+                                class="flex items-center p-2 text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
                                 href="#">
                                 Soporte
                             </a>
