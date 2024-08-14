@@ -65,7 +65,7 @@ lang="{{ str_replace('_', '-', app()->getLocale()) }}">
                         <p class="mt-1">
                             @if( Route::has('register') )
                             <a class="text-sm font-medium text-emerald-600 dark:text-emerald-400 hover:underline"
-                                href="./create-account.html">
+                                href={{ route('register') }}>
                                 {{ __('Crear cuenta') }}
                             </a>
                             @endif
