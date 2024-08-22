@@ -41,7 +41,5 @@
         </div>
     </section>
 
-    <footer class="w-full mt-14">
-        <div class="py-6 text-center text-white bg-emerald-900">Este es el footer</div>
-    </footer>
+    <x-footer />
 </x-guest-layout>
